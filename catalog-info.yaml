@@ -1,22 +1,26 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "auth-srv"
-  title: "Authentication Service"
-  description: "A microservice that acts as a middleware for authenticating users before giving them access to various StaffingHQ applications"
+  name: auth-srv
+  title: Authentication Service
+  description: A microservice that acts as a middleware for authenticating users before giving them access to various StaffingHQ applications.
+  annotations:
+    github.com/project-slug: Staffing-HQ/auth-srv
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
-  owner: "group:default/developers"
-  system: "users-system"
+  owner: group:default/developers
+  lifecycle: experimental
+  system: users-system
   providesApis:
-    - "auth-srv-api"
+    - auth-srv-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: "auth-srv-api"
-  title: "Authentication Service API"
-  description: "An API for authentication users."
+  name: auth-srv-api
+  title: Authentication Service API
+  description: An API for authentication users.
   annotations:
     github.com/project-slug: Staffing-HQ/auth-srv
     backstage.io/techdocs-ref: dir:.
