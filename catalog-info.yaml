@@ -10,6 +10,7 @@ spec:
   system: "users-system"
   providesApis:
     - "auth-srv-api"
+---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
