@@ -1,0 +1,8 @@
+site_name: "auth-srv"
+site_description: "A microservice that acts as a middleware for authenticating users before giving them access to various StaffingHQ applications"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
