@@ -1,11 +1,10 @@
 import yaml
-from fastapi import FastAPI
 import sys
 sys.path.append("app")
-import main
+import app
 
 def generate_openapi_yaml():
-    openapi_schema = main.app.openapi()
+    openapi_schema = app.app.openapi()
     with open("openapi.yaml", "w") as file:
         yaml.dump(openapi_schema, file, default_flow_style=False)
 
