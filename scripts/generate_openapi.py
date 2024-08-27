@@ -8,6 +8,7 @@ import app
 def custom_openapi():
     if app.app.openapi_schema:
         return app.app.openapi_schema
+    
     openapi_schema = get_openapi(
         title="Authentication Service",
         version="1.0.0",
