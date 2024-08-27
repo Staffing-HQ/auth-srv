@@ -7,7 +7,7 @@ metadata:
   annotations:
     github.com/project-slug: Staffing-HQ/auth-srv
     backstage.io/techdocs-ref: dir:.
-    grafana/overview-dashboard: "http://localhost:3333/d/000000/auth-srv-dashboard"
+    grafana/overview-dashboard: "http://localhost:3333/d/dLsDQIUn/authentication-service-dashboard"
     grafana/dashboard-selector: "auth-srv"
     backstage.io/kubernetes-id: "auth-srv"
     backstage.io/kubernetes-namespace: default
