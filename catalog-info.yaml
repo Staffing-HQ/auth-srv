@@ -12,6 +12,7 @@ metadata:
     backstage.io/kubernetes-id: "auth-srv"
     backstage.io/kubernetes-namespace: default
     backstage.io/kubernetes-label-selector: "app=auth-srv"
+    snow/project-id: "authentication-service"
 spec:
   type: service
   owner: group:default/developers
